@@ -12,6 +12,14 @@ public class removeWhiteSpaces {
             }
         }
 
+        // remove leading and trailing spaces from a string in Java
+        // use trim() and strip()
+        String s = "  abc  def\t";
+
+        s = s.strip();
+
+        System.out.println(s);
+
         System.out.println(answer);
     }
 }
