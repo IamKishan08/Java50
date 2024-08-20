@@ -10,7 +10,7 @@ public class reverseString {
             rev.append(c[i]);
         }
 
-        System.out.println(rev);
+        System.out.println(rev) ;
 
     }
 
