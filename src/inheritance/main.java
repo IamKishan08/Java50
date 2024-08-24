@@ -6,7 +6,6 @@ public class main {
         Students s = new Students();
 
        s.peopleInfo();
-
-        System.out.println(" ");
+       System.out.println(" ");
     }
 }

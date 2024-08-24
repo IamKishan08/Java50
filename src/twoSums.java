@@ -25,7 +25,7 @@ public class twoSums {
 //        }
     }
 
-    private static List<List<Integer>> threeSum(int[] nums) {
+    public static List<List<Integer>> threeSum(int[] nums) {
 
         Arrays.sort(nums);
 
