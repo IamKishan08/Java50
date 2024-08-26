@@ -1,0 +1,8 @@
+For Every Booking System  (Railway , Flight , Bus )
+
+ -- Booking Ticket                | bookTicket()
+ -- Cancel Ticket (Refund)        | cancelTicket()
+ -- View Ticket                   | viewTicket()
+
+
+Taxi Booking

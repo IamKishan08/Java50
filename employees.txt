@@ -1,0 +1,6 @@
+E001|John Doe|Software Engineer|IT
+E002|Jane Smith|Project Manager|HR
+E003|Alice Johnson|Business Analyst|Finance
+E004|Bob Brown|Data Scientist|IT
+E005|Charlie Davis|HR Specialist|HR
+E006|kishan|software developer|IT
