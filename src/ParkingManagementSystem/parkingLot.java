@@ -37,9 +37,12 @@ public class parkingLot {
     public Ticket unPark(Vehicle vehicle){
         for (parkingFloor floor : floorList){
             parkingSpot spot = floor.occupiedSpot(vehicle);
-            if(spot != null){
+            if(spot != null ){
                 spot.unParkVehicle();
-                return new Ticket(vehicle,spot);
+                Ticket ticket = new Ticket(vehicle,spot);
+                parkedVehicle.removeIf(t -> t.getVehicle().getVehicleNumber().equals(vehicle.getVehicleNumber()));
+                System.out.println("Vehicle UnParked ");
+                return ticket;
             }
         }
         System.out.println("Vehicle Not found");

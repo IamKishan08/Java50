@@ -4,6 +4,7 @@ public class parkingSpot {
     private String spotNumber;
     private Vehicle vehicle;
 
+
     public parkingSpot(String spotNumber){
         this.spotNumber = spotNumber;
         this.vehicle = null;

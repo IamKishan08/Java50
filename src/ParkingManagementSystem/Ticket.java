@@ -31,11 +31,4 @@ public class Ticket {
         return parkingSpots;
     }
 
-    public LocalDateTime getEntryTime() {
-        return entryTime;
-    }
-
-    public LocalDateTime getExitTime() {
-        return exitTime;
-    }
 }

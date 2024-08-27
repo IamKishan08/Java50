@@ -27,7 +27,7 @@ public class parkingFloor {
 
     public parkingSpot occupiedSpot(Vehicle vehicle){
         for (parkingSpot spot : spots){
-            if (!spot.isFree() && spot.getVehicle().equals(vehicle)){
+            if (!spot.isFree() && spot.getVehicle().getVehicleNumber().equals(vehicle.getVehicleNumber())){
                 return spot;
             }
         }
